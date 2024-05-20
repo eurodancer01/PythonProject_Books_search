@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Finder API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #0056b3;
+            background-color: #e7f1ff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #b3d7ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Book Finder API</h1>
+        <p>Use our API to find books by ID, author, genres, rating, or title:</p>
+        
+        <!-- Search by Book ID Form -->
+        <div class="container">
+            <h1>Search Book by ID</h1>
+            <input type="number" id="bookIdInput" placeholder="Enter Book ID">
+            <button id="fetchBookById">Search</button>
+            <div id="bookDetails"></div>
+        </div>
+
+        <!-- Search by Book Title Form -->
+        <div class="container">
+            <h1>Search Book by Title</h1>
+            <input type="text" id="bookTitleInput" placeholder="Enter Book Title">
+            <button id="fetchBookByTitle">Search</button>
+            <div id="bookTitleSearchResults"></div>
+        </div>
+        <div class="container">
+            <h1>Search Books by Author</h1>
+            <input type="text" id="authorFnameInput" placeholder="Enter Author's First Name">
+            <input type="text" id="authorLnameInput" placeholder="Enter Author's Last Name">
+            <button id="fetchBooksByAuthor">Search</button>
+            <div id="authorBooksList"></div>
+        </div>
+        <div class="container">
+            <h1>Search Books by Genres</h1>
+            <input type="text" id="genreInput" placeholder="Enter genres separated by comma (e.g., fantasy, fiction)">
+            <button id="fetch">Search</button>
+            <div id="booksList"></div>
+        </div>
+
+        <!-- Search by Rating Form -->
+        <div class="container">
+            <h1>Search Books by Rating</h1>
+            <input type="number" id="maxRatingInput" placeholder="Maximum Rating" min="0" max="5" step="0.1">
+            <input type="number" id="minRatingInput" placeholder="Minimum Rating" min="0" max="5" step="0.1">
+            <input type="number" id="pageInput" placeholder="Page Number" min="1" step="1">
+            <button id="fetchBooksByRating">Search</button>
+            <div id="booksByRatingResults"></div>
+        </div>
+
+
+        <ul>
+            <!-- Existing links -->
+        </ul>
+    </div>
+</body>
+
+<script>
+        document.getElementById('fetch').addEventListener('click', function() {
+            // Get the value from the input field
+            const genres = document.getElementById('genreInput').value.split(',').map(s => s.trim());
+            // Create a query string with multiple 'genres' parameters
+            const queryString = genres.map(genre => `genres=${encodeURIComponent(genre)}`).join('&');
+
+            // Make the API call using the query string
+            fetch(`http://127.0.0.1:8000/find_books_by_genres/?${queryString}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const booksList = document.getElementById('booksList');
+                // Assuming the API returns an array of books
+                booksList.innerHTML = '<ul>' + data.map(book => `<li>${book.title}</li>`).join('') + '</ul>';
+            })
+            .catch(error => {
+                console.error('Error fetching data: ', error);
+                document.getElementById('booksList').innerHTML = '<p>Failed to fetch books. Please try again.</p>';
+            });
+        });
+
+        document.getElementById('fetchBookById').addEventListener('click', function() {
+            // Get the book ID value from the input field
+            const bookId = document.getElementById('bookIdInput').value;
+
+            // Make the API call using the book ID
+            fetch(`http://127.0.0.1:8000/books/${bookId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const bookDetails = document.getElementById('bookDetails');
+                const author = data.author;
+                const genres = data.genres || [];
+                const genresString = genres.join(', ');
+                const fullName = `${author.first_name} ${author.middle_name} ${author.last_name}`.trim();
+                // Assuming the API returns details for a single book
+                bookDetails.innerHTML = `<p>Title: ${data.title}</p>
+                                         <p>Author: ${fullName}</p>
+                                         <p>Genre: ${genres}</p>
+                                         <p>Rating: ${data.rating}</p>`;
+            })
+            .catch(error => {
+                console.error('Error fetching data: ', error);
+                document.getElementById('bookDetails').innerHTML = '<p>Failed to fetch book details. Please try again.</p>';
+            });
+        });
+
+        document.getElementById('fetchBooksByAuthor').addEventListener('click', function() {
+            // Get the author's first and last name from the input fields
+            const fname = document.getElementById('authorFnameInput').value;
+            const lname = document.getElementById('authorLnameInput').value;
+
+            // Make the API call using the author's name
+            fetch(`http://127.0.0.1:8000/find_book_by_author/?fname=${encodeURIComponent(fname)}&lname=${encodeURIComponent(lname)}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const authorBooksList = document.getElementById('authorBooksList');
+                // Assuming the API returns an array of books
+                authorBooksList.innerHTML = '<ul>' + data.map(book => `<li>${book.title}</li>`).join('') + '</ul>';
+            })
+            .catch(error => {
+                console.error('Error fetching data: ', error);
+                document.getElementById('authorBooksList').innerHTML = '<p>Failed to fetch books by author. Please try again.</p>';
+            });
+        });
+        
+        document.getElementById('fetchBooksByRating').addEventListener('click', function() {
+            // Get the rating values and page number from the input fields
+            const minRating = document.getElementById('minRatingInput').value;
+            const maxRating = document.getElementById('maxRatingInput').value;
+            const page = document.getElementById('pageInput').value || '1'; // Default to page 1 if not provided
+
+            // Make the API call using the rating values and page number
+            fetch(`http://127.0.0.1:8000/find_books_by_rating/?lte=${encodeURIComponent(maxRating)}&gte=${encodeURIComponent(minRating)}&p=${encodeURIComponent(page)}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const resultsDiv = document.getElementById('booksByRatingResults');
+                // Assuming the API returns an array of books
+                resultsDiv.innerHTML = '<ul>' + data.map(book => `<li>${book.title} - Rating: ${book.rating}</li>`).join('') + '</ul>';
+            })
+            .catch(error => {
+                console.error('Error fetching data: ', error);
+                document.getElementById('booksByRatingResults').innerHTML = '<p>Failed to fetch books by rating. Please try again.</p>';
+            });
+        });
+
+        document.getElementById('fetchBookByTitle').addEventListener('click', function() {
+    // Get the book title from the input field
+            const bookTitle = document.getElementById('bookTitleInput').value;
+
+    // Make the API call using the book title
+        fetch(`http://127.0.0.1:8000/find_book_by_title/?title=${encodeURIComponent(bookTitle)}`, {
+            method: 'GET',
+            headers: {
+            'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+            return response.json();
+    })
+    .then(data => {
+        const results = document.getElementById('bookTitleSearchResults');
+        
+        // Assuming the response is an array of books, iterate over it
+        let content = '<ul>';
+        data.forEach(book => {
+            const author = book.author;
+            const fullName = `${author.first_name} ${author.middle_name} ${author.last_name}`.trim();
+            
+            // Append each book's title, author, and genres to the content string
+            content += `<li>${book.title} by ${fullName}</li>`;
+        });
+        content += '</ul>';
+        
+        // Update the results display with the constructed content
+        results.innerHTML = content;
+    })
+    .catch(error => {
+        console.error('Error fetching data: ', error);
+        document.getElementById('bookTitleSearchResults').innerHTML = '<p>Failed to fetch books by title. Please try again.</p>';
+    });
+});
+
+</script>
+
+
+</html>

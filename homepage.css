@@ -1,0 +1,15 @@
+import requests
+
+url = "https://movies-tv-shows-database.p.rapidapi.com/"
+
+querystring = {"title":"Harry Potter"}
+
+headers = {
+	"Type": "get-movies-by-title",
+	"X-RapidAPI-Key": "b722b31fb0msh08be9a4691d2d07p119105jsnb6ca8bbdbb53",
+	"X-RapidAPI-Host": "movies-tv-shows-database.p.rapidapi.com"
+}
+
+response = requests.get(url, headers=headers, params=querystring)
+
+print(response.json())

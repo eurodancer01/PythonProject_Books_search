@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.plot {
+    margin-bottom: 20px;
+}
+
+.plot img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+footer p {
+    color: #999;
+}

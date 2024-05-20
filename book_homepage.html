@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Finder</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        #random-book, #find-books-by-genre, #find-book-by-id, #find-books-by-page,#find-books-by-author,#find-books-by-title {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #random-book:hover, #find-books-by-genre:hover, #find-book-by-id:hover, #find-books-by-page:hover,#find-books-by-author:hover,#find-books-by-title:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="text"], input[type="number"] {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: calc(100% - 22px); /* Adjust input width to fit container */
+        }
+
+        #book-details, #books-by-genre, #book-details-by-id, #books-by-page,#books-by-author,#books-by-title {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        #book-details div, #books-by-genre div, #book-details-by-id div, #books-by-page div,#books-by-author div,#books-by-title div{
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        #book-details div:last-child, #books-by-genre div:last-child, #book-details-by-id div:last-child, #books-by-page div:last-child,#books-by-author div:last-child,#books-by-title div:last-child{
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Finder</h1>
+    <h2>Bai Wang</h2>
+    <button id="random-book">Get Random Book</button>
+    <div id="book-details"></div>
+    <div>
+        <input type="text" id="genre-input" placeholder="Enter genre">
+        <button id="find-books-by-genre">Find Books by Genre</button>
+    </div>
+    <div id="books-by-genre"></div>
+    <div>
+        <input type="number" id="book-id-input" placeholder="Enter Book ID">
+        <button id="find-book-by-id">Find Book by ID</button>
+    </div>
+    <div id="book-details-by-id"></div>
+    <div>
+        <input type="number" id="page-input" placeholder="Enter page number">
+        <button id="find-books-by-page">Find Books by Page</button>
+    </div>
+    <div id="books-by-page"></div>
+    <div>
+        <input type="number" id="author-input" placeholder="Enter author's name">
+        <button id="find-books-by-author">Find Books by Author</button>
+    </div>
+    <div id="books-by-author"></div>
+    <div>
+        <input type="number" id="title-input" placeholder="Enter the title">
+        <button id="find-books-by-title">Find Books by Title</button>
+    </div>
+    <div id="books-by-title"></div>
+
+    <script>
+        document.getElementById('random-book').addEventListener('click', function() {
+    fetch('http://localhost:8000/books/random')
+        .then(response => response.json())
+        .then(data => {
+            const details = document.getElementById('book-details');
+            details.innerHTML = `<p>Title: ${data.title}</p><p>Author: ${data.author}</p>`;
+        })
+        .catch(error => console.error('Error:', error));
+});
+
+        document.getElementById('find-books-by-genre').addEventListener('click', function() {
+            const genre = document.getElementById('genre-input').value;
+            fetch(`http://localhost:8000/books/genres/ratings`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ genres: [genre] })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('books-by-genre');
+                container.innerHTML = ''; // Clear previous results
+                data.forEach(book => {
+                    const div = document.createElement('div');
+                    div.innerHTML = `<p>Title: ${book.title}</p><p>Author: ${book.author}</p>`;
+                    container.appendChild(div);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById('find-book-by-id').addEventListener('click', function() {
+            const bookId = document.getElementById('book-id-input').value;
+            fetch(`http://localhost:8000/books/${bookId}`)
+                .then(response => response.json())
+                .then(data => {
+                    const details = document.getElementById('book-details-by-id');
+                    details.innerHTML = `<p>Title: ${data.title}</p><p>Author: ${data.author}</p><p>Pages: ${data.pages}</p>`;
+                    // Include more details as required
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>

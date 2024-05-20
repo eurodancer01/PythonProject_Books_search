@@ -1,0 +1,480 @@
+[
+  {
+    "author": {
+      "first_name": "Charles",
+      "last_name": "Dickens",
+      "middle_name": "John Huffman"
+    },
+    "review": {
+      "name": "Henk",
+      "body": "Heartwarming, atmospheric and sweet\nBest and happiest of all, the time before him was his own, to make amends in!\n‘I will live in the past, present and future!’\nI don't have much to say about A Christmas Carol that has not been said a thousand times. I found it a lovely, atmospheric read, with a satisfying turn around of Scrooge from his initial chagrin. Maybe in a modern book such a full reversal would be deemed saccharine and for naive children but I feel Charles Dickens did an excellent job of offering hope of redemption and betterment in this novella. What could be more Christmas like?\nAnd besides, he is genuinely funny, making Scrooge for instance almost say the following to a supernatural apparition:\nHe then made bold to inquire what business brought him here.‘Your welfare’ said the ghost.\nScrooge expressed himself much obliged, but could not help thinking that a night of unbroken rest would have been more conducive to that end."
+    },
+    "_id": "65431e0e4213085b6a7cb27d",
+    "book_id": 18,
+    "title": "A Christmas Carol",
+    "pages": 80,
+    "genres": [
+      "Classics",
+      "Historical",
+      "Literature",
+      "Historical fiction",
+      "Fiction",
+      "Fantasy",
+      "19th Century",
+      "Christmas"
+    ],
+    "rating": 4.07,
+    "plot": "A Christmas Carol is a novella by Charles Dickens about Ebenezer Scrooge, an old man, who is well-known for his miserly ways.\nOn Christmas Eve, Scrooge is visited by a series of ghosts, starting with his old business partner, Jacob Marley. The three spirits which follow, the Ghosts of Christmas Past, Christmas Present and Christmas Yet to Come, show Scrooge how his mean behaviour has affected those around him. At the end of the story he is relieved to discover that there is still time for him to change and we see him transformed into a generous and kind-hearted human being.",
+    "cover": "https://th.bing.com/th/id/R.ba8211374bf3b4641234eee35fd303dc?rik=Rk5NYZ74Hv7Y9g&riu=http%3a%2f%2falessandria.bookrepublic.it%2fapi%2fbooks%2f9788898891207%2fcover&ehk=KBOhWMkxxXV5myYCtUJwgl3%2bMpRwWK49t4ncstKmE1c%3d&risl=&pid=ImgRaw&r=0",
+    "url": "https://www.amazon.in/Christmas-Carol-Charles-Dickens/dp/8175993278/ref=sr_1_1_sspa?crid=JSDVMCHZX7TB&keywords=a+christmas+carol&qid=1698774451&sprefix=a+christmas+carol+%2Caps%2C234&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "William",
+      "last_name": "Golding",
+      "middle_name": "Gerald"
+    },
+    "review": {
+      "name": "Enisform",
+      "body": "The story of the gentle, mostly vegetarian Neanderthal tribe that is all but obliterated in a meeting with wandering Homo sapiens. Told almost entirely from the viewpoint of Lok, a slightly dim Neanderthal \"with many words and no pictures,\" it’s an interesting story and a sad one.\nBut the power of the tale is softened considerably by Golding’s laborious, descriptive prose. At times I found it very hard to understand what was going on, as the Homo sapiens’ activities – drinking wine, portaging boats, arguing – were described in Lok’s terms at length, with little clarity. Discounting those passages, the novel was a good one, capped off quite amazingly with two more narrative voices. First we see Lok as a hairy “creature,” an “it,” and then finally we hear the story from the view of one of the humans, who, it turns out, are as scared and confused as the Neanderthals, whom they consider fierce devils. A skillful comment on how far humans have come from a natural state of innocence, acceptance and wonder."
+    },
+    "_id": "654a1ca6aceafbe13e8ec162",
+    "book_id": 31,
+    "title": "The Inheritors",
+    "pages": 272,
+    "genres": [
+      "Classics",
+      "Fiction",
+      "Science Fiction",
+      "Prehistory",
+      "Fantasy",
+      "Literature",
+      "Historical"
+    ],
+    "rating": 3.52,
+    "plot": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about “the end of innocence, the darkness of man’s heart.”",
+    "cover": "https://img1.od-cdn.com/ImageType-400/1515-1/B97/B4A/FE/%7BB97B4AFE-5ABE-4B5B-8087-6E5303C502C3%7DImg400.jpg",
+    "url": "https://www.amazon.in/Inheritors-William-Golding/dp/057136232X/ref=sr_1_2?crid=3K5DKXW9UQ9MH&keywords=The+Inheritors&nsdOptOutParam=true&qid=1699355340&sprefix=the+inheritors%2Caps%2C198&sr=8-2",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "William",
+      "last_name": "Golding",
+      "middle_name": "Gerald"
+    },
+    "review": {
+      "name": "Julian",
+      "body": "Pincher Martin is on a navy vessel escorting a North Atlantic convoy during WWII. His ship is torpedoed and sinks, but Martin is the sole survivor and ends up on a rock on his own in the middle of the ocean. The book is entirely set on this rock.\nHe is exposed and isolated surrounded by the sea, the sun, the cold and his evident isolation. He is injured, he is hungry, but it's his thoughts that are the most terrifying as he remembers incidents from his past that he regrets and perhaps wishes he'd handled differently. He organises a pool of rainwater for drinking and eats shellfish which give him food poisoning. He gives names to features of the rock to make it homely, but there's no escape from himself."
+    },
+    "_id": "654a1ee6aceafbe13e8ec165",
+    "book_id": 32,
+    "title": "Pincher Martin",
+    "pages": 216,
+    "genres": [
+      "Classics",
+      "Fiction",
+      "Modern",
+      "Literary Fiction",
+      "Fantasy",
+      "Literature"
+    ],
+    "rating": 3.56,
+    "plot": "The sole survivor of a torpedoed destroyer is miraculously cast up on a huge, barren rock in mid-Atlantic. Pitted against him are the sea, the sun, the night cold, and the terror of his isolation.\nAt the core of this raging tale of physical and psychological violence lies Christopher Martin’s will to live as the sum total of his life.",
+    "cover": "https://live.staticflickr.com/6191/6129346729_1db326be11_b.jpg",
+    "url": "https://www.amazon.in/Pincher-Martin-William-Golding/dp/0571298508/ref=sr_1_1?crid=39G5R10WRO8M0&keywords=Pincher+Martin&qid=1699355829&sprefix=pincher+martin%2Caps%2C188&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Aldous",
+      "last_name": "Huxley",
+      "middle_name": "Leonard"
+    },
+    "review": {
+      "name": "Sean",
+      "body": "“But I don't want comfort. I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin.”\nThese are words uttered in the face of tyranny and complete oppression, though they are very rare words to be spoken or even thought of in this world because every human passion and sense of creativity is repressed and eradicated through a long and complex process of conditioning.\nAnd that’s what makes this novel so powerful; it’s not unbelievable. Like Orwell’s 1984 and Atwood’s The Handmaid’s Tale, there’s just enough truth within Brave New World for it to be real. It’s a cruel mirroring of our own existence, should we follow a certain path too strongly. And that's the wonder of speculative fiction, though unlike the other two books, there’s no violence involved in Huxley’s world. It’s just as controlling and scary, but it’s done in a more indirect way.\nSex is on tap, everybody should be happy.\nPeople don’t go missing in the night nor are they stoned to death by a group of their peers, but they have just as little freedom (even if they don’t realise it.) In this dystopia they are trained from birth to think and feel in a certain way, and, for whatever reason, should they ever deviate from their ordained path, they are fed drugs that induce happiness and serenity; thus, the populace is kept within their desired space, and persist with the tasks they were born to do. Very few of them even consider that this is wrong; this is all they have known. And to make things even more maniacally clever, all physical and sexual needs are fulfilled completely as everybody belongs to everybody else in every sense with the ultimate goal of people never developing desire. All desire should be fulfilled, nobody wants for anything else.\nPeople are machines and houses are factories. They are mass produced and designed to be one thing and one thing only. All values are inverted. The idea of showing any emotion is horrific and repulsive. Love is unknown and alien. Death is associated with sweetness and relief. Children are fed candy when they are thought about death, so they associate the two together, so when as adults they see death they think of treats rather than the loss of someone they have known and worked beside for years.\nI can only admire and praise Huxley’s genius through the writing. Like all effective dystopian societies, reading and information plays an exceedingly important role. As with Ray Bradbury'sFahrenheit 451, all books have been destroyed and made inaccessible. John, one of the few characters who was born away from the new world, stumbles across a volume of Shakespeare and it changes his life. He can only think and feel in Shakespearean language and begins to view the world through a semi-romantic lens and only finds depravity when he walks into the new world.\nIt’s everything he hates. He has been termed the savage, though he knows and understands the real meaning of the term even if those who call him such do not. Naturally, he becomes depressed and isolated in this new space, a space that he cannot be a part of or accepted in (not that he would want to be.) And I found him by far the most interesting and compelling character within the story because he is the only one to really look beyond the boundaries of his own experience and to find it wanting.\nSo this is a terribly important novel and I can’t believe I have only just read it. If you haven’t read it already, you know what you have to do. This isn’t something to be missed. It’s a novel that made me think and imagine in a way a book hasn’t done in quite some time."
+    },
+    "_id": "655da872b6a14936844ccc15",
+    "book_id": 50,
+    "title": "Brave New World",
+    "pages": 235,
+    "genres": [
+      "Classics",
+      "Fiction",
+      "Science Fiction",
+      "Fantasy",
+      "Dystopia",
+      "Literature",
+      "Philosophy"
+    ],
+    "rating": 3.99,
+    "plot": "Aldous Huxley's profoundly important classic of world literature, Brave New World is a searching vision of an unequal, technologically-advanced future where humans are genetically bred, socially indoctrinated, and pharmaceutically anesthetized to passively uphold an authoritarian ruling order–all at the cost of our freedom, full humanity, and perhaps also our souls. “A genius who spent his life decrying the onward march of the Machine”, Huxley was a man of incomparable talents: equally an artist, a spiritual seeker, and one of history’s keenest observers of human nature and civilization. Brave New World, his masterpiece, has enthralled and terrified millions of readers, and retains its urgent relevance to this day as both a warning to be heeded as we head into tomorrow and as thought-provoking, satisfying work of literature. Written in the shadow of the rise of fascism during the 1930s, Brave New Worldd likewise speaks to a 21st-century world dominated by mass-entertainment, technology, medicine and pharmaceuticals, the arts of persuasion, and the hidden influence of elites.",
+    "cover": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6f32be52769923.5608ee179b08e.jpg",
+    "url": "https://www.amazon.in/Brave-New-World-Aldous-Huxley/dp/9390315379/ref=sr_1_1_sspa?crid=1AQ27IOMF3Z5I&keywords=Brave+New+World&qid=1700635576&sprefix=brave+new+world%2Caps%2C283&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Aldous",
+      "last_name": "Huxley",
+      "middle_name": "Leonard"
+    },
+    "review": {
+      "name": "Mohit",
+      "body": "Let me open the review with a bold but defensible statement: This work has no literary merit. This \"sci-fi\" (Huxley couple were not happy that this work was considered a science fiction) utopian novel is a vehicle to deliver what Huxley believed to be The answer to one of the most critical questions of our existence - we know the present value systems are fucked up but what is the alternative? The Island, Pala, is where Huxley materializes in words his vision, relying and borrowing heavily from Eastern religious philosophies, particularly those of Buddhism and Hinduism.\nThe systems suggested are ingenious as such (even while they are derivative) and thought provoking, if the book is an initiation to the alternate world-views presented here (and the book did serve as an introduction for much of the western audience at that time). I was extremely skeptical of the book's promise after being disappointed by the overenthusiam of Huxley in The Doors of Perception, but here, Huxley shows he is not just an enthusiast but a true intellectual, that his understanding of the spiritual philosophies is not a mere fascination of its promises and mysteries and the rich metaphysics. Thus, what could have been a ridiculous/didactic/dull work, becomes a serious suggestion for the reader's consideration. Add to that Huxley's insights into the Western man's (or at least the Western-man-of-that-time's - the Hero's) innate dilemmas and insecurities and their root causes. To profess a final answer to any question one must first have a deep understanding of the question itself. This Huxley exhibits with careful sensitivity, as much as an exhibition of careful sensitivity is permitted by the novel's form/genre.\nAlso, while the book may not be read for fun alone it is a lot of fun. Some of the side characters are caricatured, the dialogues are often witty and the hero has a self-acerbic humor. This helps while the reader is being educated.\nReading this will remind you of Avatar, of Dances with the Wolves, of Razor's Edge. It will also remind you very much of the movie Mindwalk, provided you have seen it (chances are you haven't and I highly recommend it if you haven't). So, if you know what you are going for and are still curious/open-minded, go for it.\nThe book was a dying man's earnest attempt to show the troubled world what he thought was a glimmer of hope."
+    },
+    "_id": "655dd5093c32d8f904fe6588",
+    "book_id": 55,
+    "title": "Island",
+    "pages": 354,
+    "genres": [
+      "Classics",
+      "Fiction",
+      "Science Fiction",
+      "Literature",
+      "Philosophy",
+      "Dystopia",
+      "Fantasy",
+      "Utopia"
+    ],
+    "rating": 3.86,
+    "plot": "“Island” is a novel by Aldous Huxley, published in 1962. It serves as the author’s final work before his death.\nWill Farnaby, a cynical journalist and political huckster, deliberately shipwrecks his boat on the shores of the Kingdom of Pala, an island located between Sumatra and the Andaman Islands.\nPala is an otherwise “forbidden island” that Farnaby infiltrates. His task is to persuade the island’s current queen, the Rani, to sell oil rights to Pala’s untapped oil assets.\nFarnaby awakens on the island with a leg injury and encounters a unique culture. Pala combines elements of western science and oriental philosophy, including principles from Buddhism, Taoism, Hinduism, and Confucianism.\nDuring his time on Pala, Farnaby undergoes a transformation. He shifts from a cynical Westerner to someone who embraces the Palanese alternative to the exploitative capitalism prevalent in the West.\n“Island” serves as Huxley’s utopian counterpart to his more famous dystopian novel, “Brave New World”. While the plot exists, it primarily serves as a vehicle for exploring conceptual ideas rather than adhering to conventional narrative tension.\nThe clash between Pala’s harmonious society and Farnaby’s external influences creates thought-provoking reflections on culture, spirituality, and the pursuit of a better world.",
+    "cover": "https://th.bing.com/th/id/OIP.HXK_2mjT1tgiWFGRcriSdAHaLX?rs=1&pid=ImgDetMain",
+    "url": "https://www.amazon.in/Island-Aldous-Huxley/dp/0099477777/ref=sr_1_1?crid=JABXP8UNGJ26&keywords=island+aldous+huxley&qid=1700646998&sprefix=Island+Aldous+%2Caps%2C325&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Kazuo",
+      "last_name": "Ishiguro"
+    },
+    "review": {
+      "name": "Beth",
+      "body": "I felt a tremendous sense of relief that I had finally completed Ishiguros’s The Unconsoled. I allowed myself to remember the experience of reading it, with its unusual memory-impaired narrator and the endless stream of absurdity and satire, and its improbable, dream-like narration. The more I thought about it, the more it seemed like it would make the perfect subject for a Goodreads review. I worried a bit about the time it would take to make my feelings clear about the book, but after looking around my office, seeing the sun was streaming through the windows and all of my other duties of the day were happening on schedule, it seemed to be the perfect time to start my review. There would be plenty of time in the day for my other duties. In fact, the more I considered it, the more I relished the idea of really striking a nerve with my fellow Goodreads readers. This could, in fact, be the very review that could pull the Goodreads community together once and for all. Yes, a concise, well-written review is just what was needed, indeed I felt quite keenly that I had a responsibility to be the one to write it.\nAnd it is true, many people may well read this review. Dare I say, among the readers of this review might well be many discerning readers and perhaps a writer or two. Perhaps Mr. Ishiguro himself visits Goodreads! I imagine him in his fashionable London flat, asking his assistant to explain to his publishers and his agent and all of his various arrangers hoping that he will offer a reading or a lecture about his work that he himself was entirely transformed personally by my very words! Perhaps my review will help him to understand his own book, with its metaphors, mystery, and magnificent surrealism even more completely than when he was writing it!\nImagining this energized me greatly, and as the light was waning I sat down to begin my review. I was just reaching for my opening words when I noted my morning’s work, still incomplete, on the screen. In the excitement of contemplating a brilliant review of The Unconsoled, I had completely forgotten to complete my responsibilities. I glanced at the time on my computer and saw I had a few minutes remaining before my deadline. In a matter of moments my clients would be calling me, asking for their reports. I figured that I could get a good bit done with the time I had remaining. I placed my hands on the keyboard."
+    },
+    "_id": "655ed8bf8c03f9e62c991492",
+    "book_id": 62,
+    "title": "The Unconsoled",
+    "pages": 544,
+    "genres": [
+      "Fiction",
+      "Historical Fiction",
+      "Literary Fiction",
+      "Historical",
+      "Classics",
+      "Contemporary",
+      "Fantasy",
+      "Music"
+    ],
+    "rating": 3.58,
+    "plot": "“The Unconsoled” by Kazuo Ishiguro is a novel that weaves a dreamlike tapestry of identity, memory, and redemption. Set in an unnamed central European city during the 1990s, the story revolves around Ryder, a renowned classical pianist. Ryder arrives in the city to perform a concert, but he is perpetually puzzled by an inability to remember why he is there or where he needs to be next. The maddeningly solicitous and demanding local citizens add to his confusion. Despite its dreamlike atmosphere, the novel is hyper-realistic, portraying the enigmatic precision of everyday life. It raises questions about individual identity, our connections with others, and the fundamental nature of existence. A masterpiece that leaves us pondering: Who is Ryder? Where did he come from? Why is he here? And where is he going next?",
+    "cover": "https://th.bing.com/th/id/R.0b798a6a83fc1bb58f6bc8a6512e28b9?rik=59V%2fcAQAzc0bMg&riu=http%3a%2f%2fd.gr-assets.com%2fbooks%2f1387742747l%2f1034389.jpg&ehk=LYB%2bAwhljbx2pvveWWyFq48TKCCZ2TGtso9ooII4AkE%3d&risl=&pid=ImgRaw&r=0",
+    "url": "https://www.amazon.in/Unconsoled-Kazuo-Ishiguro/dp/0571283896/ref=sr_1_1?crid=FZ4ADRR66CZA&keywords=The+Unconsoled&qid=1700714261&sprefix=the+unconsoled%2Caps%2C285&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Debra",
+      "body": "What are you doing on that wardrobe? Narnia Business!!\nI read this book as a book challenge and adored it. I had not read this book before and did not know of its existence as a child. I would have loved it even more then, I imagine.\nFour English children, removed from London for their safety during WWII, are sent to a country manor to live with a professor. Lucy is the first to enter the wardrobe and be transported into the secret world of Narnia. There she meets a talking faun who eventually warns her about the white witch who keeps Narnia in a constant state of winter. A human’s presence in Narnia is threatening to her and the animals are under orders to inform her at once. Once back home, she informs her siblings who do not believe her until they too eventually enter the wardrobe and the world of Narnia.\nNarnia is full of talking animals, magic, and the loathsome witch who turns animals into stone statues if they do not do as she pleases. With the help of a Beaver couple, they escape in time and get to meet Aslan, who teaches them true bravery, sacrifice and teamwork.\nThis is a great fantasy book for both children and adults alike. Suspension of belief and a desire for entertainment is all one needs to enjoy this book. The illustrations are precious and go perfectly with the story."
+    },
+    "_id": "65797bebb06454dfd2c1a1a4",
+    "book_id": 71,
+    "title": "The Lion, the Witch and the Wardrobe",
+    "pages": 208,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Magic",
+      "Young Adult"
+    ],
+    "rating": 4.23,
+    "plot": "“The Lion, the Witch and the Wardrobe” is a novel by C.S. Lewis. It tells the story of four siblings - Peter, Susan, Edmund, and Lucy - who are sent away from London during World War II to live with a professor in the countryside. While exploring the house, Lucy discovers a wardrobe that leads to a magical land called Narnia. There, she meets a faun named Mr. Tumnus, who tells her about the evil White Witch who has cursed Narnia with eternal winter. The siblings soon find themselves caught up in a battle between the forces of good and evil, with the fate of Narnia hanging in the balance. Will they be able to defeat the White Witch and restore Narnia to its former glory? You’ll have to read the book to find out.",
+    "cover": "https://images.thenile.io/r1000/9780007588527.jpg",
+    "url": "https://www.amazon.in/Lion-Witch-Wardrobe-Chronicles-Narnia/dp/0007363664/ref=sr_1_1?crid=28AOWEIPIVQ7U&keywords=The+Lion%2C+the+Witch+and+the+Wardrobe&qid=1702457105&sprefix=the+lion%2C+the+witch+and+the+wardrobe%2Caps%2C214&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Jasmine",
+      "body": "This book was an excellent read! I just loved how the story pulled me in. It helped that the characters were well liked and their adventures were exciting. I like Prince Caspian and his curiosities. The stories about the animals were fantastic. It boggled my mind that the time difference between Narnia and real life was so vast! It's also interesting that different people came and took over in the centuries that passed.\n The story continued where The Lion, the Witch, and the Wardrobe left off. It's a year later and they are at the train station heading back to boarding school. When one moment they felt something pulled them and the next they found themselves in the woods and on an island. They went swimming for awhile and then they explored looking for fresh water to drink. As they explored, they found an apple orchard and an old broken down castle. Peter solved the mystery of the castle and it surprised them all. Somewhere in Narnia a Prince needed help and it explained why the children were brought back to Narnia. The author again narrated the story.\n Prince Caspian was well written and a fast paced read! I enjoyed the siblings' relationship. It's also clear there were different personalities in this story. I like the ending because there was mentioned of a portal. I love portals to a parallel universe! That's too bad the siblings didn't stay as long this time as they did their first trip to Narnia. It's cool that their memory was still intact of all their adventures. I enjoyed the humor in this book. I recommend this classic to everyone."
+    },
+    "_id": "65797dd9b06454dfd2c1a1a7",
+    "book_id": 72,
+    "title": "Prince Caspian: The Return to Narnia",
+    "pages": 240,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 3.98,
+    "plot": "“Prince Caspian: The Return to Narnia” is a novel by C.S. Lewis and is the second book in the “Chronicles of Narnia” series. It tells the story of the Pevensie siblings - Peter, Susan, Edmund, and Lucy - who are summoned back to Narnia, a magical land they had previously visited, to help Prince Caspian, the rightful heir to the throne, overthrow his evil uncle Miraz and restore peace to the land. The children find that Narnia has changed drastically since their last visit, and they must work with the inhabitants of the land to defeat Miraz’s army and restore Caspian to his rightful place on the throne. Along the way, they encounter many magical creatures and face numerous challenges, but with the help of Aslan, the great lion and protector of Narnia, they are able to emerge victorious.",
+    "cover": "https://th.bing.com/th/id/R.47a556618675e2f1e57eddae1c1467d4?rik=oqDw9dnmJzotQw&riu=http%3a%2f%2fimg1.imagesbn.com%2fp%2f9780007288984_p0_v1_s260x420.JPG&ehk=C3%2bqkOIS0A0lD91J2PJuhJRMXrZPDaRga9ESktnmTJc%3d&risl=&pid=ImgRaw&r=0",
+    "url": "https://www.amazon.in/Prince-Caspian-Chronicles-Narnia-Book/dp/0007323115/ref=sr_1_1?crid=10U3TQJA9V3E2&keywords=Prince+Caspian%3A+The+Return+to+Narnia&qid=1702460458&sprefix=prince+caspian+the+return+to+narnia%2Caps%2C271&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Dannii",
+      "body": "This is my third journey into the lands of Narnia as I have been reading the series in chronological rather than publication order. With probably the most intriguing title of the series, this was the tale I was most excited for, but it ultimately didn't live up the magic of the previous two books, for me.\nThis is the first book in the series not set from the perspective of someone entering Narnia from the human real. I still enjoyed it, though it is not what I thought it would be and, as such, it lost a lot of the mystical and magical qualities that pervaded the previous stories.\nThis tale surrounds a young boy, Sashta, and his talking horse, Bree, in a heroic type, rags-to-riches tale. Coming from bordering savage lands, the duo traverse cities and deserts to flee the slavery that would otherwise await them. Along their journey they meet a similar pair of escapees, Avaris and talking horse Hwin, who join them on their adventures.\nCharacters from the previous tale made a reappearance in their new roles as Kings and Queens of Narnia and it was exciting to see how the characters had progressed.\nThe adventurous elements of the story were high and seeing more of this magical realm was a real joy, but I lost some of my suspended belief in reading this. With no connection to the human world, this still made for pleasing but not enchanting reading.\nMy largest grievance with this tale was that I felt it relied on the stereotype of the savage other and incorporated some racist elements that might have been acceptable for the time it was published but jarred with me, as a modern-day reader. I could not forgive the book this sin and it dramatically lessened my enjoyment. I see few other reviews with similar statements so perhaps this was only my interpretation of the text but, nevertheless, the feeling that the stereotypes were somewhat misplaced continued to niggle at me as I read this."
+    },
+    "_id": "65797f6ab06454dfd2c1a1aa",
+    "book_id": 73,
+    "title": "The Horse and His Boy",
+    "pages": 208,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 3.91,
+    "plot": "“The Horse and His Boy” is a novel by C.S. Lewis and is the fifth book in the “Chronicles of Narnia” series. It tells the story of a boy named Shasta who lives in Calormen with his abusive father, Arsheesh. One day, a powerful nobleman demands hospitality from Arsheesh and offers to buy Shasta as his slave. Shasta learns that he was not Arsheesh’s son, but was found as a baby in a boat. He escapes with a talking horse named Bree, who was also captured from Narnia as a foal. They meet a girl named Aravis and her talking horse, Hwin, and together they travel north to Narnia. Along the way, they learn of a plot by the Prince of Calormen to attack Archenland, and they warn the King of Archenland of the impending strike. The novel is set during the reign of the four Pevensie children as Kings and Queens of Narnia, and three of the Pevensies appear as minor characters in the book.",
+    "cover": "https://i.harperapps.com/hcuk/covers/9780007323081/x800.JPG",
+    "url": "https://www.amazon.in/Horse-His-Boy-Chronicles-Narnia/dp/0007363788/ref=sr_1_1?crid=1EDI9GBXVDZFF&keywords=The+Horse+and+His+Boy&qid=1702460900&sprefix=the+horse+and+his+boy%2Caps%2C232&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Doug",
+      "body": "One of my other favorite Narnia books. I honestly love all of these books so much, with the exception of Prince Caspian, so it's really hard for me to truly rank the Narnia novels.\nLewis' The Silver Chair, the fourth published book in the series (and the way in which I believe the series should be read) is in many ways a very different and more grim version of the Narnia world.\nEustace returns after making his debut in The Voyage of the Dawn Treader, and we are introduced to a new female lead, Jill Pole, who is quite well written in my opinion and even better than the Pevensie girls. The real show stealer here is the character of Puddleglum, however. He is a pure delight of negativity and pessimism who nevertheless is heroic and brave in his own right.\n“Life isn't all fricasseed frogs and eel pie.”\n“And you must always remember there's one good thing about being trapped down here: it'll save funeral expenses.”\nAnyways, the children and Puddluglum find themselves on a somber and dark adventure to rescue a lost Prince, and they end up falling into the hands of Giants (who at first appear very civilized) and later an evil queen.\nThis is the first Narnia book (though not the last) to show Narnia as a much less friendly and darker place than the earlier books, especially The Lion, The Witch, and the Wardrobe. I quite liked Lewis' decision to do this here, and it made for a more mature read, in a series that already tends to mature more in the later books.\nLewis was a master at storytelling, and what's most impressive is that despite the fact that none of these books are as long as the typical fantasy novel nowadays, the world is incredibly vibrant and well-thought out. Lewis tells just enough to give us a clear picture while still leaving plenty to the imagination. The Silver Chair is no exception."
+    },
+    "_id": "65798146b06454dfd2c1a1ad",
+    "book_id": 74,
+    "title": "The Silver Chair",
+    "pages": 224,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 3.95,
+    "plot": "“The Silver Chair” is a novel by C.S. Lewis and is the fourth book in the “Chronicles of Narnia” series. It tells the story of Eustace Scrubb and his classmate Jill Pole, who are transported to Narnia by Aslan to help rescue Prince Rilian, the heir to the throne of Narnia, who has been missing for years. They are aided in their quest by a marsh-wiggle named Puddleglum, and together they journey through the Underworld, encountering various obstacles and enemies along the way. Eventually, they find Prince Rilian, who has been enchanted by the evil Queen of the Underworld, and they are able to break the spell and return him to Narnia. The novel explores themes of temptation, faith, and the nature of evil.",
+    "cover": "https://www.eden.co.uk/images/500/9780007323098.jpg",
+    "url": "https://www.amazon.in/Silver-Chair-Chronicles-Narnia/dp/000736377X/ref=sr_1_1?crid=51O3ONTVZTJJ&keywords=The+Silver+Chair&qid=1702461304&sprefix=the+silver+chair%2Caps%2C261&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Jo",
+      "body": "I'm very well acquainted with Narnia, and this is my fourth or fifth reread of this wonderful series. I love that while I'm reading them, I remember the pure joy I had with them as a child, and now, I'm in my thirties, everything seems so much more vivid and I can definitely say this may have been the most memorable reread so far.\nI love the magic of this story, from how Eustace eventually learns that his actions have consequences and kind of becomes more likeable, and how Lucy recognises her worth. I especially appreciate the part with Aslan. I love him so much, and I think he would love me too.\nI found the ending particularly poignant as the children are growing up, as we obviously all do. But, the beauty is, these wonderful books allow me to escape to this fascinating world whenever I feel like it."
+    },
+    "_id": "6579831ab06454dfd2c1a1b0",
+    "book_id": 75,
+    "title": "The Voyage of the Dawn Treader",
+    "pages": 224,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 4.09,
+    "plot": "“The Voyage of the Dawn Treader” is a novel by C.S. Lewis and is the third book in the “Chronicles of Narnia” series. It tells the story of Edmund and Lucy Pevensie, along with their cousin Eustace Scrubb, who are transported to Narnia through a painting of a ship at sea. They are rescued by King Caspian X of Narnia and taken aboard his ship, the Dawn Treader. Caspian is on a quest to find the seven lost Lords of Narnia, and the children join him on his journey. Along the way, they encounter many magical creatures and face numerous challenges, including a sea serpent, a mysterious island, and a dark force that threatens to consume them all. With the help of Aslan, the great lion and protector of Narnia, they are able to overcome these obstacles and complete their quest.",
+    "cover": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/24/bc/140047-ml-1247987.jpg",
+    "url": "https://www.amazon.in/Voyage-Dawn-Treader-Chronicles-Narnia/dp/0007363680/ref=sr_1_1?crid=3P05D3QA6JBTC&keywords=The+Voyage+of+the+Dawn+Treader&qid=1702461823&sprefix=the+voyage+of+the+dawn+treader%2Caps%2C242&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Piyange",
+      "body": "I'm not really a fantasy fan, but I have always wanted to read the Chronicles of Narnia, especially after watching the movies.\nThe Magician's Nephew, although 6th in the publication order, chronologically it is the first in the series. I read that C.S. Lewis himself had recommended reading this as the first in the series. Although written way later than the Lion Witch and the Wardrobe, I can understand why the author wanted the readers to start his Chronicles with Magician's Nephew.\nHere the readers are introduced to the world of Narnia and the great Lion - Aslan. It also introduces the characters of Jadis who will become the White Witch, Digory who will be Professor Kirke, and it also explains the famous lamp post in Narnia and the wardrobe through which the passage to Narnia was secured.\nThe story is a beautiful introduction to the series was good. It sets the pace well for the chronicles to unfold. The creation of Narnia is so beautifully done and I felt so glad to have entered that amazing world. The read was interesting and engaging. I enjoyed it. Looking forward to read the rest of the chronicles in their chronological order."
+    },
+    "_id": "657984e6b06454dfd2c1a1b3",
+    "book_id": 76,
+    "title": "The Magician's Nephew",
+    "pages": 146,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 4.05,
+    "plot": "“The Magician’s Nephew” is a novel by C.S. Lewis and is the sixth book in the “Chronicles of Narnia” series. It is a prequel to the series and tells the story of two children, Digory and Polly, who are transported to different worlds by magic rings created by Digory’s uncle, Andrew Ketterley. They eventually find themselves in a world called Charn, where they awaken an evil sorceress named Jadis. They flee from Charn and end up in a world called Narnia, which is being created by the great lion Aslan. They witness the creation of Narnia and are tasked with protecting it from Jadis, who follows them into the new world. The novel explores themes of temptation, original sin, and the nature of evil.",
+    "cover": "https://i.pinimg.com/originals/fc/0f/58/fc0f58fc577e409c90c55fd1c0a950de.jpg",
+    "url": "https://www.amazon.in/Magicians-Nephew-C-S-Lewis/dp/9356617023/ref=sr_1_1_sspa?crid=Q6UO0QH2YYP4&keywords=The+Magician%27s+Nephew&qid=1702462260&sprefix=the+magician%27s+nephew%2Caps%2C670&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Dannii",
+      "body": "This is my seventh journey into the fantastical lands of Narnia, as I have chosen to read the series in chronological rather than publication order.\nWhat a fitting end to such an epic series! Despite having a darker message and more serious tone than the other stories, I enjoyed this just as much as the previous books.\nIt has been centuries since the last sighting of the mystical Aslan and his name has turned from legend to myth. With some falsely using his name and status, and others denouncing him altogether, it is left to the returning children from our world to save Narnia once again.\nDespite a similar running theme, this seemed aimed at a more adult audience. There was some dark imagery and an overall more sinister tone. However, as an adult reader myself, I enjoyed these new aspects.\nI adored seeing the return of old faces and, without them, this would not have been a proper conclusion. I am sad to say goodbye but I know I will be returning, probably soon, to one of my new favourite fictional lands."
+    },
+    "_id": "65798777b06454dfd2c1a1b6",
+    "book_id": 77,
+    "title": "The Last Battle",
+    "pages": 208,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Childrens",
+      "Young Adult"
+    ],
+    "rating": 4.01,
+    "plot": "“The Last Battle” is a novel by C.S. Lewis and is the seventh and final book in the “Chronicles of Narnia” series. It tells the story of King Tirian, the last king of Narnia, who leads the fight of Narnia against the Calormenes. Eustace Scrubb, a friend of Narnia and cousin to the Pevensie siblings, and Jill Pole, a friend of Narnia, also fight for the Narnians. The novel is set some 200 Narnian years after “The Silver Chair” and about 2500 years (and 49 Earth years) since the creation of the world narrated in “The Magician’s Nephew”. A false Aslan is set up in the north-western borderlands and conflict between true and false Narnians merges with that between Narnia and Calormen, whose people worship Tash. It concludes with termination of the world by Aslan, after a \"last battle\" that is practically lost.",
+    "cover": "https://d3525k1ryd2155.cloudfront.net/h/635/394/123394635.0.x.jpg",
+    "url": "https://www.amazon.in/Last-Battle-Chronicles-Narnia/dp/000736380X/ref=sr_1_1?crid=1534XUT464P5W&keywords=The+Last+Battle&qid=1702462717&sprefix=the+magician%27s+nephew%2Caps%2C568&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Hope",
+      "body": "First of all, this book has a cool title. I mean, seriously…Out of the Silent Planet… Say it to yourself a couple times. It sounds pretty, almost spooky, sort of dramatic and enigmatic. Ooh.\nMan, I love a good title.\nI also love a good allegory. And it’s my opinion that C.S. Lewis pretty much wrote the best allegories. Like, for real dude. This is like The Chronicles of Narnia for big people.\n(I’m still partial to the childlikeness of The Chronicles though).\nSo basically, this book is about a man named Ransom who is abducted by these two crazy professor dudes, and taken to a planet called Malacandra (or, Mars). Once they reach the planet, Ransom promptly runs away from the crazy professors, and does a little exploration of the planet.\nWhere Narnia was written in a very simplistic style (which I personally preferred), Out of the Silent Planet goes heavy on the adjectives, and there were points when I was thinking, “How many fancy words can you use to describe one thing?!”\nAlthough Lewis’ descriptive passages are a bit heavy and at times dull, he makes up for it with a mastery of dialogue. I have noticed that in all of the C.S. Lewis fiction I have read, it is not his descriptions (which he tends to over-flowerify), but his conversations that make his novels what they are.\nThe book is short in number of pages, but it drags a little until about chapter seventeen or eighteen. Once I got to that point, everything started making sense and the allegory came over loud and clear and sweet."
+    },
+    "_id": "657989eeb06454dfd2c1a1b9",
+    "book_id": 78,
+    "title": "Out of the Silent Planet",
+    "pages": 224,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Science Fiction",
+      "Religion"
+    ],
+    "rating": 3.93,
+    "plot": "“Out of the Silent Planet” is a science fiction novel by C.S. Lewis and is the first book in the “Space Trilogy”. It tells the story of Dr. Elwin Ransom, a professor of language at Cambridge University, who is kidnapped by two men, Devine and Weston, and taken to the planet Malacandra (Mars). There, he discovers a world of strange creatures and landscapes, and learns that Devine and Weston plan to offer him as a sacrifice to the planet’s inhabitants. Ransom escapes and meets the hrossa, a peaceful species of intelligent beings who teach him their language and culture. He also learns about the eldila, the spirits who serve the Oyarsa, the ruler of Malacandra. Ransom eventually meets the Oyarsa and learns that Earth is known as the “silent planet” because it has been cut off from the rest of the universe due to its evil and selfishness. The novel explores themes of good and evil, the nature of humanity, and the relationship between God and the universe.",
+    "cover": "https://images.gr-assets.com/books/1333463056l/13425330.jpg",
+    "url": "https://www.amazon.in/Out-Silent-Planet-Cosmic-Trilogy/dp/0007157150/ref=sr_1_1?crid=7GKJH7I2K92X&keywords=Out+of+the+Silent+Planet&qid=1702463520&sprefix=out+of+the+silent+planet%2Caps%2C240&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Erin",
+      "body": "“Perelandra” is the second novel in the Space Trilogy by C.S Lewis. After falling in love with the first book in this series, this novel disappointed.\nAfter his return from Malacandra, Ransom finds himself again secluded on a strange and isolated planet that goes by the name, Perelandra. As he tries to adjust to his new surroundings, he faces a bigger obstacle when he runs into his former nemesis, Weston, who appears to have dark and seedy plans for the planet. Ransom soon discovers that he has been appointed to save Perelandra, and in doing so, may also save his home planet and his entire species.\nLewis’ descriptive prose is engaging and beautiful. Immediately, I was pulled into the bright and colourful land of Perelandra, with its strange creatures and landscapes. Lewis was incomparably able to bring a fantasy world to life, in the way that only he can. However, that aside, I found the story started extremely well, but started to drag in the middle. I was eagerly anticipating getting to the end (and not for the right reasons), and if Lewis had not been the author, I would’ve probably added this book to my DNF pile.\nRansom is a great character, eccentric and intelligent, admirably finding a way to survive in the strangest of surroundings. I love his adventures, and the calm and almost astute way he has of exploring the world. It was great to see “Weston” (of sorts) return as well, as he played the perfect villain.\nLewis is known for his devout opinion on religion and Christianity in particular, and he makes no secret of it. The theme runs rampant (sometimes subtly, sometimes less so) in a lot of his novels, and this one was no exception. The inner themes in this novel of Creation, the idea of God and life itself are deep and thought-provoking, but combined with the lengthy soliloquies and speeches from most of the characters, it was a thick topic to process (especially for such a small novel).\nReligion aside, I wanted more space exploration and less self-exploration. Perhaps it is the times we are living in, but deep reading was not what I expected going in. I absolutely will finish the trilogy off, as I’m curious to see where Ransom explores next, and I adore Lewis’ beautiful language. Lewis is a classic author for a reason, and I will forever be a fan. Perhaps next time, I will try and lower my expectations."
+    },
+    "_id": "65798bffb06454dfd2c1a1bc",
+    "book_id": 79,
+    "title": "Perelandra",
+    "pages": 288,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Science Fiction",
+      "Religion",
+      "Christianity"
+    ],
+    "rating": 3.99,
+    "plot": "“Perelandra” is a science fiction novel by C.S. Lewis and is the second book in the “Space Trilogy”. It tells the story of Dr. Elwin Ransom, who is sent to intervene in a war between the eldila, angelic creatures of Deep Space, and Weston, a human explorer who aims to enslave or destroy them. Ransom lands on Perelandra, a world of rich, muted colors, floating islands, delicious fruits, and tame, delightful creatures. He meets a beautiful woman who looks human in every way, except that she’s green. He and the Green Lady spend the next days discussing their different worlds. Both he and the Lady, for example, know Maleldil, or God, but God’s purposes on Earth have been different from his purposes on Perelandra. The Lady even knows that Maleldil took a human form on Earth, but because she has no concept of evil, sin, or death, she doesn’t understand that Maleldil came to Earth to redeem human beings from their sin. In fact, she has no notion of desiring anything other than what Maleldil sends—everything he gives is good, and she walks with him continually, their wills in perfect harmony. For instance, Maleldil has forbidden the Lady and her King (the only other being of her kind) from dwelling on Perelandra’s sole Fixed Land. She doesn’t know why he has forbidden this, but it’s nevertheless a joy for her to obey him. About this point in their conversation, the Lady and Ransom notice something streaking across the sky and falling into the sea, but the Lady thinks little of it; she’s looking for her King, so they ride dolphin-like fish to the Fixed Land in search of him. When they reach it, they spot a small spaceship floating on the water, and Ransom realizes that Weston, his past nemesis and captor on Mars, has come to Perelandra.",
+    "cover": "https://files.readanybook.com/1087100/files/perelandra.jpg",
+    "url": "https://www.amazon.in/Perelandra-Cosmic-Trilogy-C-Lewis/dp/0007157169/ref=sr_1_1?crid=DWF5RYO26DOG&keywords=Perelandra&qid=1702464001&sprefix=out+of+the+silent+planet%2Caps%2C1122&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "John",
+      "body": "I've read \"That Hideous Strength\" several times, and it always has been my favorite of C.S. Lewis' space trilogy. But this time through, it captivated me in a way that it never has before. Only C.S. Lewis, with his combination of brilliance, scholarly knowledge, writing ability, wit and Christian world view, could have written this book.\nIt is Lewis' most satirical book, even more so than \"Screwtape Letters.\" It is probably his most sophisticated fiction work with the exception of \"Till We Have Faces.\"\nAs he tells us in a brief author's note, this is the fictional complement to Lewis' \"The Abolition of Man,\" which is a critique of the British educational system. This sounds like a deadly subject for fiction, but it isn't in Lewis' skillful hands. And although this book was written in the 1940s in England, the themes remain on target in the United States today.\nIt is helpful, but not necessary, to have read the first two books of the trilogy before reading \"That Hideous Strength.\" The central character of those books, Ransom, plays a major role here as well. But the central characters in \"Hideous\" are a young, not-very-happily married couple, Mark and Jane Studdock.\nIn the battle between good and evil that occupies this book, Mark is drawn in to the side of evil, Jane to the side of good. \"Drawn in\" is the phrase -- neither makes a conscious decision or realizes that good and evil are involved until late in the book. I think Mark represents the young C.S. Lewis. And I think \"Bill the Blizzard\" Hingest, a character who disappears early in the book, represents the mature C.S. Lewis in this dialogue with Mark:\n\"I suppose there are two views about everything,\" said Mark.\n\"Eh? Two views? There are a dozen views about everything until you know the answer. Then there's never more than one.\"\nThe legend of King Arthur plays a significant role in \"That Hideous Strength.\"\nThe subject matter of \"That Hideous Strength\" is grim, and even gruesome at times. Needed comic relief is provided by Mr. Bultitude. I won't say anything more about him, because if I did it would ruin it for you."
+    },
+    "_id": "65798da2b06454dfd2c1a1bf",
+    "book_id": 80,
+    "title": "That Hideous Strength",
+    "pages": 544,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Adventure",
+      "Science Fiction",
+      "Religion",
+      "Christianity",
+      "Literature"
+    ],
+    "rating": 3.91,
+    "plot": "“That Hideous Strength” is a science fiction novel by C.S. Lewis and is the third book in the “Space Trilogy”. It tells the story of Mark and Jane Studdock, a newly married couple, who are drawn into a sinister conspiracy by the National Institute for Co-ordinated Experiments (N.I.C.E.), an ostensibly scientific institute that is a front for supernatural forces. The novel explores themes of good and evil, the nature of humanity, and the relationship between God and the universe. The title of the novel is taken from a poem by David Lyndsay, which refers to the Tower of Babel.",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348645618i/100933.jpg",
+    "url": "https://www.amazon.in/That-Hideous-Strength-C-Lewis/dp/0007157177/ref=sr_1_1?crid=3MD9OIVIRBX75&keywords=That+Hideous+Strength&qid=1702464549&sprefix=that+hideous+strength%2Caps%2C236&sr=8-1",
+    "__v": 0
+  },
+  {
+    "author": {
+      "first_name": "Clive",
+      "last_name": "Lewis"
+    },
+    "review": {
+      "name": "Melissa",
+      "body": "I love this book - it really makes you think. For those who have not read it, the book is written as a compilation of letters from a \"tempter,\" Screwtape, to his nephew, a \"junior tempter\" named Wormwoood. In the letters, Screwtape gives Wormwood adivce and counsel on how to best tempt his \"subject\" - a young man who converts to Christianity, and then falls in love with a Christian woman. Through the letters, you are constantly reminded and made to think about how the adversary tempts us. What is truly excellent about the book, though, is that the cunning plans are not centered around obvious sins, that so often are what we think about when we think about temptation and sin. Instead, the tempters focus on much more subtle forms of sins - vanity, pride, distraction, insincerity, forgetting God, and how these can achieve the same effect as more obvious sins ... to lead us away from God. Ultimately, the tempters in this story do not care what sins are committed by their subjects - so long as they accomplish their goal of separating people from God, and leading them to the adversary. In fact, they seem to prefer the more subtle means of leading people astray, as they sense that this is a more hidden and thus secure way to accomplish their ultimate design.\nYou cannot read this book and not think of how extremely pertinent it is to your life. C. S. Lewis has thought deeply about the things we do each that lead us away from God, and he articulates them very well. As you read the book, you are in a constant introspection of your own life, and the things that are put before you daily that lead you away from what we all desire - a close, personal, consistent, and deep relationship with God, that leads to happiness now and the hereafter. I love this book!"
+    },
+    "_id": "65798f6db06454dfd2c1a1c2",
+    "book_id": 81,
+    "title": "The Screwtape Letters",
+    "pages": 136,
+    "genres": [
+      "Fiction",
+      "Fantasy",
+      "Classics",
+      "Philosophy",
+      "Christian Fiction",
+      "Religion",
+      "Christianity",
+      "Faith",
+      "Theology"
+    ],
+    "rating": 4.26,
+    "plot": "“The Screwtape Letters” is a novel by C.S. Lewis and is a series of 31 letters written by a senior demon named Screwtape to his nephew, Wormwood, a younger and less experienced demon, charged with guiding a man called “the Patient” toward “Our Father Below” (Satan), and away from “the Enemy” (God). In the early letters of the book, Screwtape responds to the news that Wormwood is busy trying to tempt the patient to move away from God and embrace sin. Screwtape gives Wormwood advice on how to influence the patient in various small ways, thereby encouraging the patient to move away from God and toward Satan. The novel explores themes of good and evil, the nature of humanity, and the relationship between God and the universe.",
+    "cover": "https://i.harperapps.com/covers/9780062299086/y648.jpg",
+    "url": "https://www.amazon.in/Screwtape-Letters-C-S-Lewis/dp/9390896010/ref=sr_1_1?crid=33C8RMEL2RG06&keywords=The+Screwtape+Letters&qid=1702464969&sprefix=the+screwtape+letters%2Caps%2C459&sr=8-1",
+    "__v": 0
+  }
+]
